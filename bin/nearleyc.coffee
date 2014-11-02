@@ -5,7 +5,7 @@ nomnom        = require 'nomnom'
 
 nearley       = require '../lib/nearley.js'
 Compile       = require '../lib/compile.js'
-StreamWrapper = require '../lib/stream.js'
+StreamWrapper = require '../lib/stream.coffee'
 generate      = require '../lib/generate.js'
 
 opts = nomnom.script('nearleyc')
