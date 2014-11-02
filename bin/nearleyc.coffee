@@ -6,7 +6,7 @@ nomnom        = require 'nomnom'
 nearley       = require '../lib/nearley.js'
 Compile       = require '../lib/compile.js'
 StreamWrapper = require '../lib/stream.coffee'
-generate      = require '../lib/generate.js'
+generate      = require '../lib/generate.coffee'
 
 opts = nomnom.script('nearleyc')
 	.option('file', { position: 0, help: 'An input .ne file (if not provided then read from stdin)' })
