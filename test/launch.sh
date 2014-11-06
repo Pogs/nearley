@@ -4,7 +4,7 @@ echo "Parser build successfully."
 
 date > test/profile.log
 echo "Running profiles...";
-node test/profile.js >> test/profile.log;
+coffee test/profile.coffee >> test/profile.log;
 echo "Done running profiles.";
 cat test/profile.log
 
