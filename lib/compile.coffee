@@ -1,4 +1,4 @@
-nearley = window?.nearley or require '../lib/nearley.js'
+nearley = window?.nearley or require '../lib/nearley.coffee'
 
 Compile = (structure, opts) ->
 	id = 0 # for making unique names

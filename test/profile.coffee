@@ -1,4 +1,4 @@
-nearley = require '../lib/nearley.js'
+nearley = require '../lib/nearley.coffee'
 grammar = require './parens.js'
 
 String::repeat ?= (n) -> new Array(Math.max(n, 0) + 1).join @

@@ -43,9 +43,9 @@ To use a generated grammar in a node runtime, install `nearley` as a module:
     var nearley = require("nearley");
     var grammar = require("./my-generated-grammar.js");
 
-To use a generated grammar in a browser runtime, include `nearley.js` (you can hardlink from Github if you want):
+To use a generated grammar in a browser runtime, include `nearley.coffee` (you can hardlink from Github if you want):
 
-    <script src="https://raw.githubusercontent.com/Hardmath123/nearley/master/lib/nearley.js"></script>
+    <script src="https://raw.githubusercontent.com/Hardmath123/nearley/master/lib/nearley.coffee"></script>
     <script src="my-generated-grammar.js"></script>
 
 

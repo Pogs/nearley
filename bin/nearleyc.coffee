@@ -3,7 +3,7 @@
 fs            = require 'fs'
 nomnom        = require 'nomnom'
 
-nearley       = require '../lib/nearley.js'
+nearley       = require '../lib/nearley.coffee'
 Compile       = require '../lib/compile.coffee'
 StreamWrapper = require '../lib/stream.coffee'
 generate      = require '../lib/generate.coffee'

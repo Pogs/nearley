@@ -2,7 +2,7 @@
   "name": "nearley",
   "version": "1.0.1",
   "description": "Simple Earley parsing for JS",
-  "main": "lib/nearley.js",
+  "main": "lib/nearley.coffee",
   "dependencies": {
     "nomnom": "~1.6.2"
   },
